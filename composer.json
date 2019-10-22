@@ -1,0 +1,23 @@
+{
+    "name": "see-king/php-tpl",
+    "version": "1.0.0",
+    "description": "Elementary PHP templating class",
+    "keywords": ["php", "template", "parser", "html", "templating"],
+    "homepage": "https://github.com/see-king/php-tpl",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+      {
+        "name": "Alex Kogan",
+        "email": "seekvisum@gmail.com",
+        "homepage": "http://github.com/see-king/"
+      }
+    ],
+    "require": {
+      "php": ">=5.3.0"      
+    },
+    "autoload": {
+      "psr-4": {"SeeKing\\tpl\\": "/"}
+    }
+  }
